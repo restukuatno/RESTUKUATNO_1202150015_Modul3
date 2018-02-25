@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="25dp"
+    android:textAlignment="center"
+    tools:context="com.example.android.restukuatno_1202150015_modul3.MainActivity">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="140dp"
+        android:layout_gravity="center_horizontal"
+        android:src="@drawable/logoaqua"
+        />
+
+    <EditText
+        android:id="@+id/textUsername"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Username"
+        android:text="EAD"
+        android:inputType="textPersonName"
+        android:layout_marginTop="16dp"
+        />
+
+    <EditText
+        android:id="@+id/textPassword"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Password"
+        android:text="MOBILE"
+        android:inputType="textPassword"
+        android:layout_marginTop="16dp"
+        />
+
+    <Button
+        android:id="@+id/butnLogin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Login"
+        android:onClick="login"
+        android:textColor="#fff"
+        android:layout_marginTop="21dp"
+        android:layout_gravity="center_horizontal"
+        android:background="@color/colorPrimary"/>
+
+</LinearLayout>
